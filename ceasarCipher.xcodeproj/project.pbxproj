@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F292238129A7F0BE00597B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292238029A7F0BE00597B2F /* AppDelegate.swift */; };
+		F292238329A7F0BE00597B2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292238229A7F0BE00597B2F /* SceneDelegate.swift */; };
+		F292238529A7F0BE00597B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292238429A7F0BE00597B2F /* ViewController.swift */; };
+		F292238829A7F0BE00597B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F292238629A7F0BE00597B2F /* Main.storyboard */; };
+		F292238A29A7F0C600597B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F292238929A7F0C600597B2F /* Assets.xcassets */; };
+		F292238D29A7F0C600597B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F292238B29A7F0C600597B2F /* LaunchScreen.storyboard */; };
+		F292239829A7F0C600597B2F /* ceasarCipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292239729A7F0C600597B2F /* ceasarCipherTests.swift */; };
+		F29223A229A7F0C700597B2F /* ceasarCipherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29223A129A7F0C700597B2F /* ceasarCipherUITests.swift */; };
+		F29223A429A7F0C700597B2F /* ceasarCipherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29223A329A7F0C700597B2F /* ceasarCipherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F292239429A7F0C600597B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F292237529A7F0BE00597B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F292237C29A7F0BE00597B2F;
+			remoteInfo = ceasarCipher;
+		};
+		F292239E29A7F0C700597B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F292237529A7F0BE00597B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F292237C29A7F0BE00597B2F;
+			remoteInfo = ceasarCipher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F292237D29A7F0BE00597B2F /* ceasarCipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceasarCipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292238029A7F0BE00597B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F292238229A7F0BE00597B2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F292238429A7F0BE00597B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F292238729A7F0BE00597B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F292238929A7F0C600597B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F292238C29A7F0C600597B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F292238E29A7F0C600597B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F292239329A7F0C600597B2F /* ceasarCipherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceasarCipherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292239729A7F0C600597B2F /* ceasarCipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceasarCipherTests.swift; sourceTree = "<group>"; };
+		F292239D29A7F0C700597B2F /* ceasarCipherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceasarCipherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29223A129A7F0C700597B2F /* ceasarCipherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceasarCipherUITests.swift; sourceTree = "<group>"; };
+		F29223A329A7F0C700597B2F /* ceasarCipherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceasarCipherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F292237A29A7F0BE00597B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292239029A7F0C600597B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292239A29A7F0C700597B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F292237429A7F0BE00597B2F = {
+			isa = PBXGroup;
+			children = (
+				F292237F29A7F0BE00597B2F /* ceasarCipher */,
+				F292239629A7F0C600597B2F /* ceasarCipherTests */,
+				F29223A029A7F0C700597B2F /* ceasarCipherUITests */,
+				F292237E29A7F0BE00597B2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F292237E29A7F0BE00597B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F292237D29A7F0BE00597B2F /* ceasarCipher.app */,
+				F292239329A7F0C600597B2F /* ceasarCipherTests.xctest */,
+				F292239D29A7F0C700597B2F /* ceasarCipherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F292237F29A7F0BE00597B2F /* ceasarCipher */ = {
+			isa = PBXGroup;
+			children = (
+				F292238029A7F0BE00597B2F /* AppDelegate.swift */,
+				F292238229A7F0BE00597B2F /* SceneDelegate.swift */,
+				F292238429A7F0BE00597B2F /* ViewController.swift */,
+				F292238629A7F0BE00597B2F /* Main.storyboard */,
+				F292238929A7F0C600597B2F /* Assets.xcassets */,
+				F292238B29A7F0C600597B2F /* LaunchScreen.storyboard */,
+				F292238E29A7F0C600597B2F /* Info.plist */,
+			);
+			path = ceasarCipher;
+			sourceTree = "<group>";
+		};
+		F292239629A7F0C600597B2F /* ceasarCipherTests */ = {
+			isa = PBXGroup;
+			children = (
+				F292239729A7F0C600597B2F /* ceasarCipherTests.swift */,
+			);
+			path = ceasarCipherTests;
+			sourceTree = "<group>";
+		};
+		F29223A029A7F0C700597B2F /* ceasarCipherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F29223A129A7F0C700597B2F /* ceasarCipherUITests.swift */,
+				F29223A329A7F0C700597B2F /* ceasarCipherUITestsLaunchTests.swift */,
+			);
+			path = ceasarCipherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F292237C29A7F0BE00597B2F /* ceasarCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29223A729A7F0C700597B2F /* Build configuration list for PBXNativeTarget "ceasarCipher" */;
+			buildPhases = (
+				F292237929A7F0BE00597B2F /* Sources */,
+				F292237A29A7F0BE00597B2F /* Frameworks */,
+				F292237B29A7F0BE00597B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceasarCipher;
+			productName = ceasarCipher;
+			productReference = F292237D29A7F0BE00597B2F /* ceasarCipher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F292239229A7F0C600597B2F /* ceasarCipherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29223AA29A7F0C700597B2F /* Build configuration list for PBXNativeTarget "ceasarCipherTests" */;
+			buildPhases = (
+				F292238F29A7F0C600597B2F /* Sources */,
+				F292239029A7F0C600597B2F /* Frameworks */,
+				F292239129A7F0C600597B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F292239529A7F0C600597B2F /* PBXTargetDependency */,
+			);
+			name = ceasarCipherTests;
+			productName = ceasarCipherTests;
+			productReference = F292239329A7F0C600597B2F /* ceasarCipherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F292239C29A7F0C700597B2F /* ceasarCipherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29223AD29A7F0C700597B2F /* Build configuration list for PBXNativeTarget "ceasarCipherUITests" */;
+			buildPhases = (
+				F292239929A7F0C700597B2F /* Sources */,
+				F292239A29A7F0C700597B2F /* Frameworks */,
+				F292239B29A7F0C700597B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F292239F29A7F0C700597B2F /* PBXTargetDependency */,
+			);
+			name = ceasarCipherUITests;
+			productName = ceasarCipherUITests;
+			productReference = F292239D29A7F0C700597B2F /* ceasarCipherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F292237529A7F0BE00597B2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F292237C29A7F0BE00597B2F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F292239229A7F0C600597B2F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F292237C29A7F0BE00597B2F;
+					};
+					F292239C29A7F0C700597B2F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F292237C29A7F0BE00597B2F;
+					};
+				};
+			};
+			buildConfigurationList = F292237829A7F0BE00597B2F /* Build configuration list for PBXProject "ceasarCipher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F292237429A7F0BE00597B2F;
+			productRefGroup = F292237E29A7F0BE00597B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F292237C29A7F0BE00597B2F /* ceasarCipher */,
+				F292239229A7F0C600597B2F /* ceasarCipherTests */,
+				F292239C29A7F0C700597B2F /* ceasarCipherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F292237B29A7F0BE00597B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292238D29A7F0C600597B2F /* LaunchScreen.storyboard in Resources */,
+				F292238A29A7F0C600597B2F /* Assets.xcassets in Resources */,
+				F292238829A7F0BE00597B2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292239129A7F0C600597B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292239B29A7F0C700597B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F292237929A7F0BE00597B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292238529A7F0BE00597B2F /* ViewController.swift in Sources */,
+				F292238129A7F0BE00597B2F /* AppDelegate.swift in Sources */,
+				F292238329A7F0BE00597B2F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292238F29A7F0C600597B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292239829A7F0C600597B2F /* ceasarCipherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292239929A7F0C700597B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29223A429A7F0C700597B2F /* ceasarCipherUITestsLaunchTests.swift in Sources */,
+				F29223A229A7F0C700597B2F /* ceasarCipherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F292239529A7F0C600597B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F292237C29A7F0BE00597B2F /* ceasarCipher */;
+			targetProxy = F292239429A7F0C600597B2F /* PBXContainerItemProxy */;
+		};
+		F292239F29A7F0C700597B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F292237C29A7F0BE00597B2F /* ceasarCipher */;
+			targetProxy = F292239E29A7F0C700597B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F292238629A7F0BE00597B2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F292238729A7F0BE00597B2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F292238B29A7F0C600597B2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F292238C29A7F0C600597B2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29223A529A7F0C700597B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F29223A629A7F0C700597B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29223A829A7F0C700597B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ceasarCipher/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.ceasarCipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29223A929A7F0C700597B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ceasarCipher/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.ceasarCipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F29223AB29A7F0C700597B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.ceasarCipherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceasarCipher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ceasarCipher";
+			};
+			name = Debug;
+		};
+		F29223AC29A7F0C700597B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.ceasarCipherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceasarCipher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ceasarCipher";
+			};
+			name = Release;
+		};
+		F29223AE29A7F0C700597B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.ceasarCipherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ceasarCipher;
+			};
+			name = Debug;
+		};
+		F29223AF29A7F0C700597B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.ceasarCipherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ceasarCipher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F292237829A7F0BE00597B2F /* Build configuration list for PBXProject "ceasarCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29223A529A7F0C700597B2F /* Debug */,
+				F29223A629A7F0C700597B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29223A729A7F0C700597B2F /* Build configuration list for PBXNativeTarget "ceasarCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29223A829A7F0C700597B2F /* Debug */,
+				F29223A929A7F0C700597B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29223AA29A7F0C700597B2F /* Build configuration list for PBXNativeTarget "ceasarCipherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29223AB29A7F0C700597B2F /* Debug */,
+				F29223AC29A7F0C700597B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29223AD29A7F0C700597B2F /* Build configuration list for PBXNativeTarget "ceasarCipherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29223AE29A7F0C700597B2F /* Debug */,
+				F29223AF29A7F0C700597B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F292237529A7F0BE00597B2F /* Project object */;
+}
